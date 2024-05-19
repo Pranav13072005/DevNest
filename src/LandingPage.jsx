@@ -1,26 +1,17 @@
 import React, {useState} from "react";
 import "./LandingPage.css";
-import logo from "./logo1.png"
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import CountUp from 'react-countup';
-
-function Navbar() {
+import Navbar from './Navbar';
+function LandingPage() {
     return (
     <div className="body-main">
-      <div className="navbar">
-        <img src={logo} alt="DevNest" className="logo"/>
-        <div className="navbar-right">
-            <a className="navbar-elements one">Home</a>
-            <a className="navbar-elements">About Us</a>
-            <a className="navbar-elements">Courses</a>
-            <a className="navbar-elements">Sign up</a>
-            <a className="navbar-elements two">Login</a>
-        </div>
-      </div>
+      <Navbar/>
       <div className="hero-section">
         <div className="hero-header">
           <p className="hero-header hone">Launch your new career with a professional certificate!</p>
@@ -52,4 +43,4 @@ function Navbar() {
     );
   }
   
-  export default Navbar;
+  export default LandingPage;
