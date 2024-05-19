@@ -3,8 +3,8 @@
     padding: 0;
 }
 .body-main{
-    height: 100vh;
-    width: 100vw;
+    max-height: 100vh ;
+    max-width: 100vw ;
     background-image: url("./background-body.png");
 }
 .navbar{
@@ -40,11 +40,27 @@
     top: 30%;
     cursor: pointer;
 }
+.hero-header{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.hone{
+    padding-top: 30px;
+    color:white;
+    font-size: 2.5rem;
+}
+.htwo{
+    margin-top: 8px;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .two{
     margin-right: 0 !important;
 }
 .one{
-    background-color: #13a42e;
+    background-color: #910ba6;
     padding: 13px 20px;
     border-radius: 10px;
 
@@ -55,23 +71,36 @@
     width: 17vw;
 }
 .features-container{
-    margin-top: 20vh;
+    margin-top: 5vh;
     margin-left: 10vw;
     margin-right: 10vw;
     /* border: 2px solid white; */
-    height: 60vh;
+    height: 55.3vh;
     display: flex;
+}
+.hero-header-button{
+    padding: 10px 20px;
+    /* background-color:#aea1ea;    */
+    background-color: #910ba6;
+    border: 1px solid #910ba6;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 .students{
     width: 33.3%;
     padding: 30px;
+    padding-bottom: 10px;
+    height: 45vh;
     /* border: 1px solid white; */
     color: white;
     text-align: center;
 }
 .features-desc{
     margin-top: 7%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
 }
 .numbers{
     color: rgb(57, 233, 233);
@@ -79,6 +108,6 @@
     font-weight: 600;
 }
 .numbers-header{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: rgb(57, 233, 233);
 }

@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import CountUp from 'react-countup';
 
 function Navbar() {
@@ -21,6 +22,11 @@ function Navbar() {
         </div>
       </div>
       <div className="hero-section">
+        <div className="hero-header">
+          <p className="hero-header hone">Launch your new career with a professional certificate!</p>
+          <p className="hero-header htwo">7-day free trial | Starting at $49 per month | Less than 6 months at your own pace</p>
+          <button className="hero-header-button">Explore Courses <FontAwesomeIcon icon={faArrowRight} className="arrow"/></button>
+        </div>
         <div className="features-container">
           <div className="students">
           <FontAwesomeIcon icon={faGraduationCap} className="student"/>
