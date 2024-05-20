@@ -8,6 +8,7 @@ import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import CountUp from 'react-countup';
 import Navbar from './Navbar';
+
 function LandingPage() {
     return (
     <div className="body-main">
