@@ -23,7 +23,7 @@ function LandingPage() {
           <FontAwesomeIcon icon={faGraduationCap} className="student"/>
           <p className="numbers"><CountUp start={0} end={200} duration = {2} useEasing={true}/>k+</p>
           <p className="numbers-header">STUDENTS</p>
-          <p className="features-desc">Join a thriving community of over 20,000 aspiring developers!</p>
+          <p className="features-desc">Join a thriving community of over 200,000 aspiring developers!</p>
           </div>
           <div className="students">
           <FontAwesomeIcon icon={faCode} className="student"/>
