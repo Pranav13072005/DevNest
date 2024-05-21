@@ -81,3 +81,7 @@ background-image: url('about.jpg');
     word-spacing: 0.2em;
     padding-top: 7vw !important;
 }
+.ourstorylink{
+    text-decoration: none;
+    color: white;
+}

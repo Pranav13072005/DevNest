@@ -3,7 +3,7 @@ import "./AboutPage.css";
 import Navbar from "../../Navbar";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-
+import { Link } from 'react-router-dom';
 import ParticlesComponent from '../../components/Particles';
 
 function AboutPage() {
@@ -23,7 +23,7 @@ function AboutPage() {
             <div className='content'>
             <p className='our-story-desc'>Founded on the principles of innovation, accessibility, and community, DevNest is not just a learning platform but a thriving ecosystem for aspiring tech professionals. Our courses are meticulously crafted by industry experts to...</p>
             <div className='button'>
-            <button className='our-story'>View Our Story  <FontAwesomeIcon icon={faArrowRight} className="arrow"/></button>
+            <button className='our-story'><Link to="../Ourstory" className='ourstorylink'>View Our Story  <FontAwesomeIcon icon={faArrowRight} className="arrow"/></Link></button>
             </div>
             </div>
           </div>

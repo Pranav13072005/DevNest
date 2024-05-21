@@ -1,0 +1,59 @@
+#particles canvas{
+    z-index: -1;
+}
+.goback{
+    text-decoration: none;
+    color: white;
+}
+.gobackbutton{
+    padding: 7px 15px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(202, 35, 227);
+    border-radius: 10px;
+}
+.buttonholder{
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+}
+.Our-story-header{
+    font-family: "Sora", sans-serif;
+    font-size: 4rem;
+    margin: 3vh;
+    text-align: center;
+}
+.normal{
+    font-size: 1.4rem;
+    font-family: "Sora", sans-serif;
+    padding: 2vh 12vw;
+}
+.headin{
+    padding: 2vh 10vw;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Sora", sans-serif;
+    color: aqua;
+}
+.italic{
+    font-style: italic;
+    color: aquamarine;
+}
+li{
+    margin-left: 20vw;
+    margin-right: 8vw;
+    font-size: 1.4rem;
+    font-family: "Sora", sans-serif;
+    margin-bottom: 5vh;
+}
+.list-headin{
+    color: aqua;
+    font-weight: 600;
+}
+.ending{
+    color: rgb(229, 234, 81);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+}

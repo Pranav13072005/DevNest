@@ -10,6 +10,7 @@ import AboutPage from './Pages/About/AboutPage';
 import Signup from './Pages/Signup/Signup';
 import Login from './Pages/Login/Login';
 import Courses from './Pages/Courses/Courses';
+import Ourstory from './Pages/Ourstory/Ourstory';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "courses",
     element: <Courses/>
+  },
+  {
+    path: "ourstory",
+    element: <Ourstory/>
   }
 ]);
 
