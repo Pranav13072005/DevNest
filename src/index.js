@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import AboutPage from './Pages/AboutPage';
+import Signup from './Pages/Signup';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "about",
     element: <AboutPage/>
+  },
+  {
+    path: "signup",
+    element: <Signup/>
   }
 ]);
 
