@@ -1,8 +1,8 @@
 import React from 'react';
 import "./AboutPage.css";
-import Navbar from "../Navbar";
+import Navbar from "../../Navbar";
 
-import ParticlesComponent from '../components/Particles';
+import ParticlesComponent from '../../components/Particles';
 
 function AboutPage() {
   return (

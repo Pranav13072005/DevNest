@@ -1,9 +1,9 @@
 import "./Login.css";
-import Navbar from "../Navbar";
-import facebook from "./facebook1.png";
-import g from "./g+.png";
-import linked from "./linkedin.png";
-import ParticlesComponent from "../components/Particles";
+import Navbar from "../../Navbar";
+import facebook from "../facebook1.png";
+import g from "../g+.png";
+import linked from "../linkedin.png";
+import ParticlesComponent from "../../components/Particles";
 
 export default function Login(){
     return(

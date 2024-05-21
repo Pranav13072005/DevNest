@@ -70,7 +70,7 @@
 }
 .password{
     position: relative;
-    top: 35% !important;
+    top: 33% !important;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -80,7 +80,7 @@
 }
 .signin{
     position: relative;
-    top: 43%;
+    top: 40%;
     left: 30%;
     width: 40%;
     height: 8%;

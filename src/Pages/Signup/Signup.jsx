@@ -1,9 +1,9 @@
 import "./Signup.css";
-import facebook from "./facebook1.png";
-import g from "./g+.png";
-import linked from "./linkedin.png";
-import Navbar from "../Navbar";
-import ParticlesComponent from "../components/Particles";
+import facebook from "../facebook1.png";
+import g from "../g+.png";
+import linked from "../linkedin.png";
+import Navbar from "../../Navbar";
+import ParticlesComponent from "../../components/Particles";
 export default function Signup(){
     return(
         <div>
