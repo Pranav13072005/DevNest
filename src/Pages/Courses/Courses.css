@@ -1,0 +1,37 @@
+.courses {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.view-selector {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.view-selector label {
+    margin: 0 10px;
+}
+
+.content-dropdown {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content-dropdown select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.course-content {
+    text-align: center;
+}
+
+.course-item {
+    margin: 10px 0;
+    font-size: 18px;
+}

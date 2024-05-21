@@ -10,7 +10,7 @@ function Navbar() {
         <div className="navbar-right">
             <Link className="navbar-elements one" to="/">Home</Link>
             <Link className="navbar-elements" to="../about">About Us</Link>
-            <a className="navbar-elements">Courses</a>
+            <Link className="navbar-elements" to="../courses">Courses</Link>
             <Link className="navbar-elements" to="../signup">Sign up</Link>
             <Link className="navbar-elements two" to="../login">Login</Link>
         </div>

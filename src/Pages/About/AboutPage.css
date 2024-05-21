@@ -52,3 +52,32 @@
     border: 2px solid white;
     width: 50%;
 }
+.section-1-right-background{
+background-image: url('about.jpg');
+    background-size: cover;
+    opacity: 0.3;
+    z-index: -2;
+}
+.our-story{
+    padding: 10px 18px;
+    font-size: 1.6rem;
+    background-color: #910ba6;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    top: 5vh;
+}.button{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    z-index: 2;
+}
+.our-story-desc{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-size: 1.3rem;
+    padding: 3vw;
+    word-spacing: 0.2em;
+    padding-top: 7vw !important;
+}
