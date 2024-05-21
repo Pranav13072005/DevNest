@@ -1,20 +1,35 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
 .courses {
-    font-family: Arial, sans-serif;
     margin: 20px;
 }
 
-h1 {
+.course-title {
     text-align: center;
+    font-size: 2rem;
     margin-bottom: 20px;
+    color: #ff6f61;
+    margin-top: 4vh;
 }
 
 .view-selector {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 1.2rem;
 }
 
 .view-selector label {
     margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.view-selector input {
+    margin-right: 5px;
+    font-size: 1rem;
 }
 
 .content-dropdown {
@@ -23,15 +38,106 @@ h1 {
 }
 
 .content-dropdown select {
-    padding: 5px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.content-dropdown select:hover {
+    background-color: #444;
 }
 
 .course-content {
     text-align: center;
+    transition: all 0.3s ease;
 }
 
 .course-item {
+    margin: 10px auto;
+    font-size: 1.1rem;
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    width: 80%;
+    max-width: 600px;
+    transition: transform 1s ease;
+    margin-bottom: 30px;
+}
+
+.course-item:hover {
+    transform: scale(1.05);
+}
+
+.course-item h2 {
+    margin-top: 0;
+    color: #ff6f61;
+}
+
+.course-item p {
+    margin: 5px 0;
+    color: #b0bec5;
+}
+
+.course-item p strong {
+    color: #ff6f61;
+}
+
+.course-item p svg {
+    margin-right: 8px;
+}
+#particles{
+    z-index: -1;
+}
+.bold{
+    font-weight: 700 !important;
+}
+.outcomes-button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.outcomesbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+.outcomes-button:hover {
+    background-color: #e65c54;
+}
+
+.learning-outcomes {
+    background-color: #1e1e1e;
+    color: #b0bec5;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.learning-outcomes h2 {
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+.learning-outcomes ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.learning-outcomes li {
     margin: 10px 0;
-    font-size: 18px;
 }
